@@ -1,0 +1,28 @@
+{
+  "name": "shotgun",
+  "version": "1.0.0",
+  "description": "Real-time visualization of data sent with HTTP POST",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://10.55.203.100/gogs/shotgun.git"
+  },
+  "keywords": [
+    "http",
+    "websocket",
+    "stream",
+    "real-time"
+  ],
+  "author": "Dênis Vilela <denis.vilela@la.logicalis.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "express": "4.15.4",
+    "moment": "2.18.1",
+    "pug": "2.0.0-rc.3",
+    "socket.io": "2.0.3"
+  }
+}

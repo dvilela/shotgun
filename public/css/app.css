@@ -1,0 +1,7 @@
+.container {}
+.container .data {
+    word-wrap: break-word; 
+    white-space: pre-wrap;
+    display: block;
+    font-family: monospace, courier, sans-serif
+}

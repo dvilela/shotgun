@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "shotgun",
+      "watch": false,
+      "script": "./lib/index.js"
+    }
+  ]
+}
