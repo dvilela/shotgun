@@ -4,7 +4,7 @@ Streams data from POST to websocket. Just open it's url (example: http://localho
 
 ## Sending Data
 
-`curl http://localhost:3000/api/v1/messages -H 'Content-Type=text/plain' -d 'Hello, World!'`
+`curl http://localhost:3000/api/v1/messages -H 'Content-Type:text/plain' -d 'Hello, World!'`
 
 ## Running
 
