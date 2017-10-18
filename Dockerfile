@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:8-alpine
 MAINTAINER Dênis Vilela <denisxvilela@gmail.com>
 
 WORKDIR /usr/src/app
